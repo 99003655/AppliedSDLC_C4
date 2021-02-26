@@ -1,6 +1,10 @@
-Requirements
-Introduction
---- TBD
+Need of Detailed Analysis of Assessment 
+To identify performance of individual student in assessments and teacher can also track that performance we need a report card so to make report  card you need to do detailed analysis of Pre-survey, Post-survey, Pre-test marks and post-test marks.
+ 
+Introduction 
+In this project we are doing analysis of Pre-survey, Post-survey, Pre-test marks and post-test marks.
+And after that we will send this detailed analysis of assessment as a feedback to student on his/her given email. As a feedback student will get his/her marks, average marks of class, Top 5 performer and bottom 5 students marks. And teacher will also get these details but she will get performance of whole class like average marks of class, Top 5 performer and bottom 5 students marks. By using this feedback she can contact bottom 5 student whether they need help or not.
+
 
 Research
 ![Description](Link to Pic) -- Content
