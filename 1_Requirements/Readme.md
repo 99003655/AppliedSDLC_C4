@@ -18,9 +18,12 @@ Feasibility Analysis:
 
 During this step of system development life cycle as we have considered different aspect associated with this project like whether is this project economically feasible to us or not whether this project is technically feasible or not, whether we have known to the technologies we are using or not that any risk are associated with this things can be considered and resolve accordingly or if there is a need of change in the strategy or plan. We have tried to find out the answers of following questions. 
 
-•	What are the needs of the users of the system and how our system will fulfill those    needs? 
+•	What are the needs of the users of the system and how our system will fulfill those needs? 
+
 •	What are the services provided to user by this system? 
+
 •	How our system will impact the users? 
+
 •	Whether our system is able to generate and send individual report card to student? 
 
 Technical analysis :-
@@ -28,7 +31,9 @@ Technical analysis :-
 During this step we are tried to find out whether the project is technically feasible to us or not and whether we will be complete this project by using the discussed technologies or not. At this step we find out that we all ready to work on the technology and complete the project.
 
 •	We use excel to store a data.
+
 •	We use Vscode software for implementation of project.
+
 •	We use some python libraries for data analysis. Some libraries are pandas, Numpy, 
 Matplotlib, seaborn and etc.
 
