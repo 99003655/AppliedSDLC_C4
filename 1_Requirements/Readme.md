@@ -38,6 +38,8 @@ During this step we are tried to find out whether the project is technically fea
 Matplotlib, seaborn and etc.
 
 SWOT ANALYSIS
+
+
 ![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/SWOT%20Analysis.png)
 
 4W's and 1'H
