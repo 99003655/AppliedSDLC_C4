@@ -37,7 +37,6 @@ During this step we are tried to find out whether the project is technically fea
 •	We use some python libraries for data analysis. Some libraries are pandas, Numpy, 
 Matplotlib, seaborn and etc.
 
--- TBD
 SWOT ANALYSIS
 ![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/SWOT%20Analysis.png)
 
