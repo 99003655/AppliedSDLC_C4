@@ -64,4 +64,6 @@ High Level Requirements:
 ![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/HighLevelReqt.JPG)
 
 Low level Requirements:
---- TBD in Tabular Format -- ID | Description | Status (Implemented/Future)
+
+
+![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/lowlevelreqt.JPG)
