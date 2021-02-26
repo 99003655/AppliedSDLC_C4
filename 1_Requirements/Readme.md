@@ -19,6 +19,7 @@ The program is used by the students and the faculty to review the students befor
 
 What is the product?
 The program is a visual report of the marks received by the students and also the self rating before and after the module starts and sends the combined report to the teacher with all the average rating, top performer and the last 10 % of the class. The students will receive a individual report on how he or she have done and how is their report in comparison with the class average with the help of the spider chart. Both stakeholders will receive the update with the help of the triggered email.
+
 When is the product used?
 The program is used when you require a individual or group report between the students and the teacher and it will be automatically triggered to the respective emails.
 
