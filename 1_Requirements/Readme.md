@@ -11,7 +11,7 @@ Cost and Features
 Defining Our System
 -- TBD
 SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/SWOT%20Analysis.png)
 
 4W's and 1'H
 Who is the user of the system?
