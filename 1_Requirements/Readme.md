@@ -13,16 +13,29 @@ In this project we are doing analysis of Pre-survey, Post-survey, Pre-test marks
 During this step of system development life cycle as we have considered different aspect associated with this project like whether is this project economically feasible to us or not whether this project is technically feasible or not, whether we have known to the technologies we are using or not that any risk is associated with these things can be considered and resolve accordingly or if there is a need of change in the strategy or plan. We have tried to find out the answers of following questions.
 
 • What are the needs of the users of the system and how our system will fulfil those needs?
+
 • What are the services provided to user by this system?
+
 • How our system will impact the users?
+
 • Whether our system is able to generate and send individual report card to student?
+
+• Performance tracker gives a simple and user-friendly view of the performance of the individual trainee.
+
+• Trainees can improve performance in Training by using a Performance tracker.
+
+• It can be used by any trainee who wants to keep track of there performance.
+
+• Spider chart will help students as well as faculty in order to understand the overall growth and performance of the class.
 
 ## Technical analysis
 
 During this step we are tried to find out whether the project is technically feasible to us or not and whether we will be complete this project by using the discussed technologies or not. At this step we find out that we all ready to work on the technology and complete the project.
 
 • We use excel to store a data.
+
 • We use VS Code software for implementation of project.
+
 • We use some python libraries for data analysis. Some libraries are pandas, NumPy, Matplotlib, seaborn and etc.
 
 ## SWOT ANALYSIS
@@ -51,6 +64,7 @@ The product can be used in a corporate training where the employer can review th
  5.	How can we use the product?
 
 • The product can be used by the students to see where they stand in class in comparison to the average marks and the top performer marks.
+
 • The product can be used by the teacher to see the group result of the class and the students who require more attention and the top performers.
 
 
