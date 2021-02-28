@@ -20,7 +20,9 @@ During this step of system development life cycle as we have considered differen
 
 • Whether our system is able to generate and send individual report card to student?
 
-• Performance tracker gives a simple and user-friendly view of the performance of the individual trainee.
+### Market Analysis
+
+• Analysis of student performance gives a simple and user-friendly view of the performance of the individual trainee.
 
 • Trainees can improve performance in Training by using a Performance tracker.
 
@@ -28,7 +30,7 @@ During this step of system development life cycle as we have considered differen
 
 • Spider chart will help students as well as faculty in order to understand the overall growth and performance of the class.
 
-## Technical analysis
+### Technical analysis
 
 During this step we are tried to find out whether the project is technically feasible to us or not and whether we will be complete this project by using the discussed technologies or not. At this step we find out that we all ready to work on the technology and complete the project.
 
