@@ -36,5 +36,5 @@ jobs:
         # pytest
         # command to run tests
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-       # python palindrom-test.py
-       # coverage run palindrom-test.py
+        python untitled.ipynb
+        coverage run 
