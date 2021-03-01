@@ -13,7 +13,7 @@ Low level Diagram (UML)
 Low Level sequential Diagram(UML)
 
 
-![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/2_Design/LowLevel.jpg)
+![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/2_Design/Low%20Level%20Diagram.png)
 
 High Level sequential Diagram(UML)
 
