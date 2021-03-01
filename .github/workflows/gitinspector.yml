@@ -1,14 +1,9 @@
 name: Git Inspector
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push,pull_request]
 
 jobs:
   inspect:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -17,6 +12,7 @@ jobs:
         fetch-depth: '0'
     - name: Install python
       run: sudo apt -y install python
+      
     - name: Install gitinspector
       run: | 
         pushd ~ &> /dev/null
@@ -24,6 +20,7 @@ jobs:
         cd gitinspector
         echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
         popd &> /dev/null
+        
     - name: Run gitinspector
       run: |
         source ~/.profile
@@ -31,13 +28,15 @@ jobs:
         gitinspector.py --version
         echo "Running for commit : $GITHUB_SHA"
         echo "============ Git Inspector ==========="
-        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/ -x file:doc .
-        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/ -x file:doc . > ~/result.html
+        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_Implementation/unity/ -x file:doc .
+        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:_testPlan/ -x file:doc . > ~/result.html
         echo "======================================"
+        
     - name : Update Results to gh-pages
       uses: actions/checkout@v2
       with:
         ref: gh-pages
+        
     - name: Update Results to gh-pages
       run: |
         pwd
@@ -47,4 +46,4 @@ jobs:
         git config user.email actions@github.com
         git add result.html
         git commit -m "[auto] Update Results for commit SHA $GITHUB_SHA"
-        git push 
+        git push
