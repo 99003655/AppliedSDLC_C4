@@ -29,6 +29,14 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 3. ...
 4. ...
 
+
+# AppliedSDLC_C4
+
+
+## Gantt Chart
+
+![alt_text](https://github.com/99003655/AppliedSDLC_C4/blob/main/Gantt%20Chart.png)
+
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
