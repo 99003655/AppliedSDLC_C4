@@ -31,8 +31,8 @@ jobs:
         gitinspector.py --version
         echo "Running for commit : $GITHUB_SHA"
         echo "============ Git Inspector ==========="
-        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc .
-        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc . > ~/result.html
+        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/ -x file:doc .
+        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/ -x file:doc . > ~/result.html
         echo "======================================"
     - name : Update Results to gh-pages
       uses: actions/checkout@v2
