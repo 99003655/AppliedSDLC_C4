@@ -75,7 +75,7 @@ The product can be used in a corporate training where the employer can review th
 ## High Level Requirements:
 
 
-![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/1_Requirements/HowLevelReqt.png)
+![alt text](https://github.com/99003655/AppliedSDLC_C4/blob/main/1_Requirements/HighLevelReqt.png)
 
 ## Low level Requirements:
 
