@@ -24,6 +24,9 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 `99003651` | Deepak Pradhan  | Excel data, Gantt chart, Test Plans, SWOT Analysis, Pylint  | Yes     | Yes   | 2  | 2     
 `99003706` | Lalit Bhardwaj  | Team Report, UML diagrams, Pandas and matplotlib, Data Analysis, Spider chart | Yes   | Yes  | 2   | 2     
 
+## Git Inspector
+
+![alt_text](https://github.com/99003655/AppliedSDLC_C4/blob/main/Git%20Inspector.png)
 
 ## Challenges Faced and How Was It Overcome
 
