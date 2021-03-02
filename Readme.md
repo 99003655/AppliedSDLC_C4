@@ -30,7 +30,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 1. Integration of main code with the email triggers.
 2. Understanding the requirements of the customer and implementing it accordingly. 
 3. Creating the Github workflow.
-4. Woriking as a team and dividing appropriate work to every individual.
+4. Working as a team and dividing appropriate work to every individual.
 
 
 # AppliedSDLC_C4
