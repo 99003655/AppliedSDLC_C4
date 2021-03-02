@@ -13,6 +13,7 @@ possurvey = pd.read_excel("postsurvey.xlsx")
 pretest = pd.read_excel("pretest.xlsx")
 postest = pd.read_excel("posttest.xlsx")
 
+# created by Ashish Pareek
 
 pre_test_list1 = []
 pre_test_list2 = []
@@ -245,6 +246,77 @@ def get_ps(ps):
             plot_post_survey_chart(i)
             plot_pre_test_chart(i)
             plot_post_test_chart(i)
+            
+# Created by Ashish Nayak
+li2=['99003655','99003706','99003708','99003718','99003608','99003616','99003654','99003709','99003648','99003711']
+li = ['ashish.pareek@ltts.com', 'lalit.bhardwaj@ltts.com', 'ashish.nayak@ltts.com', 'prashantsudhir.bagal@ltts.com', 'aakarsh.mehta@ltts.com',
+              'yash.jhajharia@ltts.com', 'manzar.hussain@ltts.com', 'digendrakumar.sahu@ltts.com', 'ankitkumar.yadav@ltts.com', 'manu.nadar@ltts.com']
+
+for i in range(10):
+    get_ps(li2[i])
+    image1 = f'output1.jpeg'
+    image2 = f'output2.jpeg'
+    image3 = f'output3.jpeg'
+    image4 = f'output4.jpeg'
+
+    sender_email = 'learningcorporate7@gmail.com'
+    sender_ePass = '99003708'
+    length = len(li[i])
+    X = li[i]
+    receiver_email = X
+
+    print(receiver_email)
+
+    message = MIMEMultipart()
+    message['From'] = sender_email
+    message['To'] = receiver_email
+    message['Subject'] = 'Result'
+
+    mail_text = '''Hello, Result of the assessment is attached below.
+                Kindly check
+                Thank You'''
+                
+    mail_text= "Average of class " 
+
+    message.attach(MIMEText(mail_text, 'plain'))
+    with open(image1, "rb") as attachment:
+        part = MIMEBase("application", "octet-stream")
+        part.set_payload(attachment.read())
+
+        encoders.encode_base64(part)
+        with open(image2, "rb") as attachment:
+            part1 = MIMEBase("application", "octet-stream")
+            part1.set_payload(attachment.read())
+
+        encoders.encode_base64(part1)
+        with open(image3, "rb") as attachment:
+            part2 = MIMEBase("application", "octet-stream")
+            part2.set_payload(attachment.read())
+
+        encoders.encode_base64(part2)
+        with open(image4, "rb") as attachment:
+            part3 = MIMEBase("application", "octet-stream")
+            part3.set_payload(attachment.read())
+        encoders.encode_base64(part3)
+        part.add_header('Content-Disposition',
+                                    "attachment; filename= %s" % image1)
+        part1.add_header('Content-Disposition',
+                                     "attachment; filename= %s" % image2)
+        part2.add_header('Content-Disposition',
+                                     "attachment; filename= %s" % image3)
+        part3.add_header('Content-Disposition',
+                                     "attachment; filename= %s" % image4)
+        message.attach(part)
+        message.attach(part1)
+        message.attach(part2)
+        message.attach(part3)
+        s = smtplib.SMTP('smtp.gmail.com', 587)
+        s.starttls()
+        s.login(sender_email, sender_ePass)
+        text = message.as_string()
+        s.sendmail(sender_email, receiver_email, text)
+        s.quit()
+        print('Mail Sent')
 
 
 
