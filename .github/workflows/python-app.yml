@@ -36,5 +36,5 @@ jobs:
         # pytest
         # command to run tests
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-        https://github.com/99003655/AppliedSDLC_C4/blob/main/3_implementation/Untitled.ipynb
+        python analysis.py
         coverage run 
