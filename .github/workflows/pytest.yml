@@ -20,5 +20,7 @@ jobs:
       run:  sudo apt install pylint
     - name: Change folder
       run:  cd 3_implementation
+    - name: check
+      run:  pylint 3_implementation
 
   
