@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Pylint | Pytest | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-![Python](Badgelink) | [![PyLint](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pylint.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pylint.yml) | [![PyTest](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pytest.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pytest.yml)| [![Git Inspector](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/gitinspector.yml)
+[![Build](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/python-app.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/python-app.yml) | [![PyLint](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pylint.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pylint.yml) | [![PyTest](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pytest.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/pytest.yml)| [![Git Inspector](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003655/AppliedSDLC_C4/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
