@@ -26,7 +26,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Git Inspector
 
-![alt_text](https://github.com/99003655/AppliedSDLC_C4/blob/main/Git%20Inspector.png)
+![alt_text](https://github.com/99003655/AppliedSDLC_C4/blob/main/Capture.PNG)
 
 ## Challenges Faced and How Was It Overcome
 
