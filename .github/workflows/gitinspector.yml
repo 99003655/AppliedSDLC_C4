@@ -1,4 +1,4 @@
-name: Git Inspector
+name: Git inspector
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  inspect:
+  build:
 
     runs-on: ubuntu-latest
 
@@ -20,7 +20,7 @@ jobs:
     - name: Install gitinspector
       run: | 
         pushd ~ &> /dev/null
-        git clone --depth=1 https://github.com/ejwa/gitinspector.git
+        git clone --depth=10 https://github.com/ejwa/gitinspector.git
         cd gitinspector
         echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
         popd &> /dev/null
@@ -30,21 +30,6 @@ jobs:
         export PYTHONIOENCODING=utf-8
         gitinspector.py --version
         echo "Running for commit : $GITHUB_SHA"
-        echo "============ Git Inspector ==========="
-        gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3.Implementation/unity -x file:doc .
-        gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3.Implementation/unity -x file:doc . > ~/result.html
-        echo "======================================"
-    - name : Update Results to gh-pages
-      uses: actions/checkout@v2
-      with:
-        ref: gh-pages
-    - name: Update Results to gh-pages
-      run: |
-        pwd
-        rm -f result.html
-        mv ~/result.html result.html
-        git config user.name "GitHub Actions"
-        git config user.email actions@github.com
-        git add result.html
-        git commit -m "[auto] Update Results for commit SHA $GITHUB_SHA"
-        git push
+        echo "!!!!!!!!!!!! Git Inspector!!!!!!!!!!!!!!!!!!!!!!!!1"
+        gitinspector.py -wTHl --format=text -f c,h,md,yml,* .
+        echo "--------------------------------"
