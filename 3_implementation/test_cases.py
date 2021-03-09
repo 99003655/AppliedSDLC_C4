@@ -1,34 +1,27 @@
-from analysis import*
+# from graph import *
+from analysis import get_ps, top_performer, average, fail
 import pytest
 
-data = pd.read_excel("presurvey.xlsx")
+ps = get_ps()
 
 
-def test_case1():
-    assert average() == [37.1333333, 37.1333333, 37.13333333, 34.46666667]
+@pytest.fixture
+def s():
+    return get_ps(99003655)
 
 
-def test_case2():
-    assert minimum() == [37.13333333, 37.133333333, 37.13333333, 34.4666667]
-    pass 
+def test_student(s):
+    
+    assert s.average() == [[8.1, 15.7, 23.5, 30.8, 38.8, 46.2], [8.0, 16.1, 23.9, 31.9, 39.2, 47.0], [
+        7.5, 15.9, 23.9, 31.4, 39.4, 47.0], [8.6, 16.9, 24.8, 32.6, 39.2, 47.1]]
+
+    assert s.fail() == [[10, 8, 9, 9, 9, 8], [10, 9, 7, 9, 8, 7], [
+        7, 9, 8, 7, 9, 7], [10, 7, 9, 8, 9, 7]]
 
 
-def test_case3():
-    assert average() == [7, 9, 8, 1, 2, 5]
-    pass
-
-
-def test_case4():
-    assert top_performer() == [5.8, 6.2, 7.5, 8.2, 3.7, 7.7]
-    pass
-
-
-def test_case5():
-    assert fail() == [5.2, 6.4, 7.0, 8.6, 7.7, 3.5]
-    pass
-
-
-def test_case6():
-    assert get_PSno() == ['99003655', '99003706', '99003708', '99003718', '99003608'] 
-    pass
-
+def test_faculty(f):
+    assert f.average() == [[8.1, 15.7, 23.5, 30.8, 38.8, 46.2], [8.0, 16.1, 23.9, 31.9, 39.2, 47.0], [
+        7.5, 15.9, 23.9, 31.4, 39.4, 47.0], [8.6, 16.9, 24.8, 32.6, 39.2, 47.1]]
+    assert f.top_performer() == [53, 52, 48, 47, 46]
+    assert f.get_ps() == ['ashish.pareek@ltts.com', 'lalit.bhardwaj@ltts.com', 'ashish.nayak@ltts.com', 'prashantsudhir.bagal@ltts.com', 'aakarsh.mehta@ltts.com', 'yash.jhajharia@ltts.com',
+                            'manzar.hussain@ltts.com', 'digendrakumar.sahu@ltts.com', 'ankitkumar.yadav@ltts.com', 'manu.nadar@ltts.com']
