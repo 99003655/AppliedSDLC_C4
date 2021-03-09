@@ -19,4 +19,6 @@ jobs:
     - name: Install pytest
       run:  sudo apt install pylint
     - name: Change folder
-      run:  cd implementation
+      run:  cd 3_implementation
+
+  
