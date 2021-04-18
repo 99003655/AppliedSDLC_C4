@@ -19,7 +19,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`99003706` | Lalit Bhardwaj  |  Team Report, UML diagrams, Pandas and matplotlib, Data Analysis and Gituhub workflow, git inspector, Pytest, Pylint | Yes    | yes   |  2   |  2     
+`99003706` | Lalit Bhardwaj  |  Team Report, UML diagrams, Pandas and matplotlib, Data Analysis,Github workflow, git inspector, Pytest and Pylint | Yes    | yes   |  2   |  2     
 `99003655` | Ashish Pareek  | Spider Chart , Pandas and matplotlib, Seaborn , UML diagram, Data Analysis for faculty.   |  Yes     | Yes  |  2   | 2    
 `99003651` | Deepak Pradhan  | Excel data, Gantt chart, Test Plans, SWOT Analysis, Pylint  | Yes     | Yes   | 2  | 2     
 `99003708` | Ashish Nayak  | Email trigger, Email Automation Test Plans, workflow.  | Yes   | Yes  | 2   | 2     
